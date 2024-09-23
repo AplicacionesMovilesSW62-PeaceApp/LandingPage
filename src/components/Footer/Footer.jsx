@@ -41,23 +41,20 @@ export const Footer = () => {
                             <div className="flex flex-row items-center gap-3">
                                 <img className="h-5 w-5 cursor-pointer hover:scale-110"
                                     src={YoutubeIcon} alt="_email" />
-                                <p>PeaceApp official</p>
+                                <p><a href="https://youtu.be/S1wn29tcVOg" target="_blank">PeaceApp official</a></p>
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-col gap-10 justify-center
                         md:gap-3 md:flex-col md:order-2 lg:gap-14 lg:flex-row lg:order-3 lg:justify-center">
+                      
                         <ul className="flex flex-col md:flex-row lg:flex-col gap-3">
-                            <li><a href="/">About us</a></li>
-                            <li><a href="/">Jobs</a></li>
-                            <li><a href="/">Press</a></li>
-                            <li><a href="/">Service</a></li>
-                        </ul>
-                        <ul className="flex flex-col md:flex-row lg:flex-col gap-3">
-                            <li><a href="/">Contact us</a></li>
-                            <li><a href="/">Terms</a></li>
-                            <li><a href="/">Privacy</a></li>
-                            <li><a href="/">Questions</a></li>
+                            <li><a href="">Fabia Herrera</a></li>
+                            <li><a href="">Ian Macavilca</a></li>
+                            <li><a href="">Anatoly Noriega</a></li>
+                            <li><a href="">Carlos Ochoa</a></li>
+                            <li><a href="">Arian Rodriguez</a></li>
+
                         </ul>
                     </div>
                     <div className="flex items-start justify-center md:items-center md:justify-start 
