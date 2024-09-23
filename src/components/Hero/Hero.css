@@ -27,3 +27,35 @@
     background: rgba(3, 26, 61, 0.585);
     z-index: 20;
 }
+
+
+.image-content {
+    flex: 1;
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.image-content img {
+    width: 60%; 
+    height: auto;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .hero-content {
+        flex-direction: column; /* Cambia a dirección vertical */
+        text-align: center;
+        height: auto;
+    }
+
+    .image-content {
+        z-index: 30;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
