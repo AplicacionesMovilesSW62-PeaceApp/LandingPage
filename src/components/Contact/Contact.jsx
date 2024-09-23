@@ -27,7 +27,7 @@ export const Contact = () => {
                     <div className='relative h-full mt-3'>
                         <iframe
                             className='rounded-md absolute inset-0 w-full h-full'
-                            src="https://www.youtube.com/embed/S1wn29tcVOg" 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7833611.048079785!2d-65.2980081!3d-16.5258253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c880bdf92eeb%3A0x66ab3518d54824c2!2sColegio%20Medico%20del%20Peru!5e0!3m2!1ses!2spe!4v1712346520607!5m2!1ses!2spe"
                             style={{ border: '0' }}
                             allowFullScreen=""
                             loading="lazy"
