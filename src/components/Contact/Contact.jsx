@@ -7,7 +7,7 @@ export const Contact = () => {
             <div className="container-section grid grid-rows-2 md:grid-rows-1 
                 grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="font-poppins flex flex-col gap-6 col">
-                    <h1 className="font-lora text-5xl text-black font-medium tracking-widem">Contact us</h1>
+                    <h1 className="font-lora text-4xl md:text-5xl text-black font-medium tracking-widem">Contact us</h1>
                     <p className="mt-3 text-lg text-balance leading-relaxed">
                         Got a question or feedback? We're here to help! Reach out to us via email,
                         phone, or fill out the form and we'll get back to you ASAP.

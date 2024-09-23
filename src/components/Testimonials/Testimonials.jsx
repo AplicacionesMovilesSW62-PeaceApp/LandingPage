@@ -51,7 +51,7 @@ export const Testimonials = () => {
     return (
         <section id='testimonials' className="py-20 bg-secondary-light">
             <div className="container-section flex flex-col gap-10">
-                <h1 className="font-lora text-center md:text-start font-medium text-5xl text-black">What Do They Say About Us?</h1>
+                <h1 className="font-lora text-center md:text-start font-medium text-4xl md:text-5xl text-black">What Do They Say About Us?</h1>
                 <p className="font-poppins text-center md:text-start text-xl leading-relaxed mb-5">Discover what our values partners, clients, and supporters have to<br />say
                     about their experiencies with PeaceApp</p>
                 <Slider {...settings}>
