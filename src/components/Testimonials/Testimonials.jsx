@@ -54,19 +54,8 @@ export const Testimonials = () => {
                 <h1 className="font-lora text-center md:text-start font-medium text-4xl md:text-5xl text-black">What Do They Say About Us?</h1>
                 <p className="font-poppins text-center md:text-start text-xl leading-relaxed mb-5">Discover what our values partners, clients, and supporters have to<br />say
                     about their experiencies with PeaceApp</p>
-                <Slider {...settings}>
-                    {
-                        cards.map((card, index) =>
-                            <TestimonialCard
-                                key={index}
-                                name={card.name}
-                                review={card.review}
-                                position={card.position}
-                                profile={card.profile}
-                            />
-                        )
-                    }
-                </Slider>
+                
+                <iframe src="https://player.vimeo.com/video/1031246291?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Validation interviews Summary" allowfullscreen className="w-full h-96"></iframe>
             </div>
         </section>
     )
