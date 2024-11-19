@@ -50,25 +50,25 @@ export const Testimonials = () => {
 
     return (
         <section id="testimonials" className="py-20 bg-secondary-light">
-  <div className="container-section flex flex-col items-center gap-10 text-center">
-    <h1 className="font-lora font-medium text-4xl md:text-5xl text-black">
-      What Do They Say About Us?
-    </h1>
-    <p className="font-poppins text-xl leading-relaxed mb-5">
-      Discover what our values partners, clients, and supporters have to
-      <br />
-      say about their experiences with PeaceApp
-    </p>
-    <iframe
-      src="https://player.vimeo.com/video/1031246291?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-      frameBorder="0"
-      allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
-      title="Validation interviews Summary"
-      allowFullScreen
-      className="w-full h-96"
-    ></iframe>
-  </div>
-</section>
+            <div className="container-section flex flex-col items-center gap-10 text-center">
+                <h1 className="font-lora font-medium text-4xl md:text-5xl text-black">
+                What Do They Say About Us?
+                </h1>
+                <p className="font-poppins text-xl leading-relaxed mb-5">
+                Discover what our values partners, clients, and supporters have to
+                <br />
+                say about their experiences with PeaceApp
+                </p>
+                <iframe
+                src="https://player.vimeo.com/video/1031246291?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                title="Validation interviews Summary"
+                allowFullScreen
+                className="w-full h-96"
+                ></iframe>
+            </div>
+        </section>
 
     )
 }
